@@ -30,7 +30,6 @@ display (Matrix(alg(s)))
 display (pd.DataFrame(alg(s), mesta, mesta))
 
 a = alg(s)
-#a = list (alg(s))
 start = input('start: ')
 cil = input('cíl:  ')
 i = mesta.index(start)
