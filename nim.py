@@ -34,7 +34,7 @@ def mozne(y):
     for hromadka in range(0, len(y)):
         for sirky in range(1, y[hromadka]+1):
 
-                if y[hromadka] != 0 or y[hromadka] == 0 or y[hromadka] - sirky < 0 or sirky <=0:
+                if y[hromadka] == 0 or y[hromadka] - sirky < 0 or sirky <=0:
                     False
                     
                 else:
