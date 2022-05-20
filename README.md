@@ -1,4 +1,4 @@
-# Teorie-grafu
+# Teorie grafů
 
 Program pro hru nim (tahání sirek) byl součástí mojí maturitní práce z informatiky na téma Grafové aplikace.
 Jedná se o interaktivní aplikaci, kde hráč hraje proti počítači hru nim. Je vyzván k vybrání hromádky a počtu sirek, který chce z vybrané hromádky tahat. Hráči je poskytnuta nápověda, pomocí které dojde k výhře. Výtězem je hráč, který vytáhne poslední sirku.
