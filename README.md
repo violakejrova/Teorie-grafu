@@ -1,8 +1,16 @@
 # Teorie grafů
 
-Program pro hru nim (tahání sirek) byl součástí mojí maturitní práce z informatiky na téma Grafové aplikace.
+Dva programy vzniklé jako součást maturitní práce z informatiky na téma *Grafové aplikace*.
 
-Jedná se o interaktivní aplikaci, kde hráč hraje proti počítači hru nim. Je vyzván k vybrání hromádky a počtu sirek, který chce z vybrané hromádky tahat, přičenž je mu poskytována nápověda, která povede k výhře. (Vítězem je hráč, který vytáhne poslední sirku).
-Algoritmus pro poskytování nápovědy funguje na principu hledání jádra grafu.
+## nim.py – Hra Nim
 
-Floyd-Warshallův algoritmus je grafový algoritmus, který se používá pro hledání nejkratší cesty mezi městy. V mém programu jsou již dána města a některé vzdálenosti mezi nimi. Ostatní vzdálenosti algoritmus vypočítá, popřípadě upraví některé již zadané vzdálenosti.
+Interaktivní aplikace, kde hráč hraje proti počítači hru Nim (tahání sirek).
+Hráč vybírá hromádku a počet sirek, které chce vytáhnout. Aplikace poskytuje nápovědu,
+která vede k výhře. Vítěz je ten, kdo vytáhne poslední sirku.
+
+Nápověda funguje na principu hledání jádra grafu.
+
+## floyd_warshall.py – Floyd-Warshallův algoritmus
+
+Grafový algoritmus pro hledání nejkratší cesty mezi městy. Program má předem daná města
+a některé vzdálenosti – ostatní vypočítá algoritmus, případně upraví již zadané hodnoty.
